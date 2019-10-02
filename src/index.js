@@ -11,10 +11,10 @@ function addTodo(e) {
 }
 
 function addTolist(text) {
-  const list = document.getElementById('task');
-  const item = document.createElement('li');
-  item.innerHTML = text;
-  list.appendChild(item);
+  const list = document.getElementById('tasks');
+    const item = document.createElement('li');
+    item.innerHTML = text;
+    list.appendChild(item);
 }
 document.addEventListener("DOMContentLoaded", () => {
   // your code here

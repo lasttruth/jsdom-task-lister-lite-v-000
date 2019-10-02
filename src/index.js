@@ -13,7 +13,7 @@ function addTodo(e) {
 function addTolist(text) {
   const list = document.getElementById('task');
   const item = document.createElement('li');
-  inte.innerHTML = text;
+  item.innerHTML = text;
   list.appendChild(item)
 }
 document.addEventListener("DOMContentLoaded", () => {
